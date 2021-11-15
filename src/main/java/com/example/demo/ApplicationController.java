@@ -15,4 +15,9 @@ public class ApplicationController {
     public String widgets() {
         return "widgets";
     }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
 }
